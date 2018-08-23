@@ -1,13 +1,13 @@
+* Algoritmo
+  :PROPERTIES:
+  :ID:       d4377d1d-b3be-48de-9e03-c4d46c8af501
+  :END:
+
 #+BEGIN_SRC ipython :session :results raw drawer
   %matplotlib inline
   import matplotlib.pyplot as plt
   import numpy as np
 #+END_SRC
-
-#+RESULTS:
-:RESULTS:
-# Out[4]:
-:END:
 
 
 #+BEGIN_SRC ipython :session :ipyfile /tmp/image.png :exports both :async t :results raw drawer
@@ -15,6 +15,17 @@
   time.sleep(3)
   plt.hist(np.random.randn(20000), bins=200)
 #+END_SRC
+
+* Acontinuacion se presetan los resultados
+  :PROPERTIES:
+  :ID:       f1c90f40-6a4f-4507-945e-0f2042d8d248
+  :END:
+
+
+[[file:/tmp/image.png]]
+
+
+
 
 
 
